@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "PerfectDOS";
+    src: url("https://emeraldimpulse7.github.io/perfect_dos_vga.ttf")
+}
+
+* {
+    font-family: "PerfectDOS", Consolas, monospace;
+}
+
+h1, h2 {
+    font-size: 24pt;
+    font-weight: normal;
+    text-decoration: underline;
+    color: var(--brightRed);
+    text-shadow: var(--redGlow);
+}
+
+p {
+    text-shadow: var(--whiteGlow);
+}
+
+pre {
+    text-shadow: var(--whiteGlow);
+    color: var(--greyColour);
+}
+
+body {
+    background: black;
+    color: white;
+    --dullRed: rgb(120,0,22);
+    --brightRed: rgb(180,0,22);
+    --redGlow: 0 0 10px var(--brightRed), 0 0 30px var(--brightRed), 0 0 40px var(--brightRed);
+    --greyColour: rgb(150,150,150);
+    --whiteGlow: 0 0 10px rgba(0,170,255,0.5), 0 0 10px white, 0 0 2px white;
+}
+
+a {
+    color: var(--brightRed);
+    text-shadow: var(--redGlow);
+}
+
+    a:hover {
+       color: var(--dullRed);
+    }
+
+img {
+    max-width: 900px;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+#linkos {
+    display: flex;
+    justify-content: center;
+}
+
+    #linkos > * {
+        padding: 0px 10px;
+    }
+
+#titlelink {
+    font-size: 36pt;
+    text-decoration: none;
+    color: var(--brightRed);
+    text-shadow: var(--redGlow);
+}
+
+    #titlelink:hover {
+        color: var(--dullRed);
+    }
