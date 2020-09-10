@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "PerfectDOS";
+    src: url("https://orientalramen4608.github.io/fsex300.ttf")
+}
+
+* {
+    font-family: "Fixedsys Excelsior 2.01", Consolas, monospace;
+}
