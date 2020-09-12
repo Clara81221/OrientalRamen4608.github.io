@@ -1,16 +1,15 @@
 @font-face {
     font-family: "PerfectDOS";
-    src: url("https://emeraldimpulse7.github.io/perfect_dos_vga.ttf")
+    src: url("https://orientalramen4608.github.io/fsex300.ttf")
 }
 
 * {
-    font-family: "PerfectDOS", Consolas, monospace;
+    font-family: "Fixedsys Excelsior 2.01", Consolas, monospace;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-size: 24pt;
     font-weight: normal;
-    text-decoration: underline;
     color: var(--brightRed);
     text-shadow: var(--redGlow);
 }
