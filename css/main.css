@@ -10,36 +10,35 @@
 h1, h2, h3 {
     font-size: 24pt;
     font-weight: normal;
-    color: var(--brightRed);
-    text-shadow: var(--redGlow);
+    color: var(--brightGreen);
+    text-shadow: var(--greenGlow);
 }
 
 p {
-    text-shadow: var(--whiteGlow);
+    text-shadow: var(--greenGlow);
 }
 
 pre {
-    text-shadow: var(--whiteGlow);
-    color: var(--greyColour);
+    text-shadow: var(--greenGlow);
+    color: var(--brightGreen);
 }
 
 body {
     background: black;
     color: white;
-    --dullRed: rgb(120,0,22);
-    --brightRed: rgb(180,0,22);
-    --redGlow: 0 0 10px var(--brightRed), 0 0 30px var(--brightRed), 0 0 40px var(--brightRed);
-    --greyColour: rgb(150,150,150);
-    --whiteGlow: 0 0 10px rgba(0,170,255,0.5), 0 0 10px white, 0 0 2px white;
+    --dullGreen: rgb(0,160,22);
+    --brightGreen: rgb(0,180,0);
+    --greenGlow: 0 0 10px var(--brightGreen), 0 0 30px var(--brightGreen), 0 0 40px var(--brightGreen);
+    --greyColour: rgb(0,180,22);
 }
 
 a {
-    color: var(--brightRed);
-    text-shadow: var(--redGlow);
+    color: var(--brightGreen);
+    text-shadow: var(--greenGlow);
 }
 
     a:hover {
-       color: var(--dullRed);
+       color: var(--dullGreen);
     }
 
 img {
@@ -63,10 +62,10 @@ header {
 #titlelink {
     font-size: 36pt;
     text-decoration: none;
-    color: var(--brightRed);
-    text-shadow: var(--redGlow);
+    color: var(--brightGreen    );
+    text-shadow: var(--greenGlow);
 }
 
     #titlelink:hover {
-        color: var(--dullRed);
+        color: var(--dullGreen);
     }
