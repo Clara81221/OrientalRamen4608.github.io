@@ -72,5 +72,5 @@ header {
 #warning {
     font-size: 36pt;
     font-weight: normal;
-    color: rgb(255,100,0);
+    color: var(--brightGreen));
 }
