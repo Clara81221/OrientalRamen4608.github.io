@@ -1,8 +1,12 @@
-@font-face {
-    font-family: "PerfectDOS";
-    src: url("https://orientalramen4608.github.io/fsex300.ttf")
-}
-
-* {
-    font-family: "Fixedsys Excelsior 2.01", Consolas, monospace;
+.regular {
+font-family: Impact, Charcoal, sans-serif;
+font-size: 18px;
+letter-spacing: -0.4px;
+word-spacing: -0.8px;
+color:#4DA6FF;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
 }
