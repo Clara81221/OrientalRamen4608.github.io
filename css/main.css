@@ -14,6 +14,12 @@ h1, h2, h3 {
     text-shadow: var(--greenGlow);
 }
 
+dateinfo {
+    font-size: 10pt;
+    font-weight: normal;
+    color: grey;
+}
+
 p {
     text-shadow: var(--greenGlow);
 }
