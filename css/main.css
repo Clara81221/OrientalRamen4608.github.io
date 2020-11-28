@@ -50,6 +50,10 @@ header {
     text-align: center;
 }
 
+.box {
+  border: 1px solid green ;
+}
+
 #linkos {
     display: flex;
     justify-content: center;
